@@ -1,0 +1,84 @@
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-card-shell {
+  width: 100%;
+  max-width: 760px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+
+.contact-card-shell h2 {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+}
+
+.contact-card-shell p {
+  margin: 10px 0 16px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-row {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-label {
+  font-size: 0.84rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.contact-value {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+a.contact-value:hover {
+  color: var(--accent-strong);
+}
+
+.contact-socials {
+  margin-top: 14px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-social-link {
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  text-decoration: none;
+  color: var(--accent-strong);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.contact-social-link:hover {
+  background: var(--surface-soft);
+}
